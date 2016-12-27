@@ -9,7 +9,7 @@ module.exports = function( grunt ) {
 
 		addtextdomain: {
 			options: {
-				textdomain: 'medium-remove-cross-links',
+				textdomain: 'remove-medium-cross-links',
 			},
 			target: {
 				files: {
@@ -30,8 +30,8 @@ module.exports = function( grunt ) {
 			target: {
 				options: {
 					domainPath: '/languages',
-					mainFile: 'medium-remove-cross-links.php',
-					potFilename: 'medium-remove-cross-links.pot',
+					mainFile: 'remove-medium-cross-links.php',
+					potFilename: 'remove-medium-cross-links.pot',
 					potHeaders: {
 						poedit: true,
 						'x-poedit-keywordslist': true
