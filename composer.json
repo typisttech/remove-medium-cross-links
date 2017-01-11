@@ -1,0 +1,25 @@
+{
+    "name": "tangrufus/remove-medium-cross-links",
+    "description": "Remove Medium cross links footer from WordPress posts.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+		"support": {
+			"email": "support@typist.tech",
+			"forum": "https://wordpress.org/support/plugin/remove-medium-cross-links",
+			"issues": "https://github.com/tangrufus/remove-medium-cross-links/issues",
+			"source": "https://github.com/tangrufus/remove-medium-cross-links",
+			"wiki": "https://github.com/tangrufus/remove-medium-cross-links/wiki"
+		},
+    "authors": [
+        {
+            "name": "Tang Rufus",
+            "email": "tangrufus@gmail.com",
+						"homepage": "https://www.typist.tech",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+		"require-dev": {
+				"lucatume/wp-browser": "^1.19"
+		}
+}
