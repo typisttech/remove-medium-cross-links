@@ -9,7 +9,7 @@ modules:
     enabled:
         - \Helper\Acceptance
         - WPDb
-        - WPBrowser
+        - WPWebDriver
     config:
         WPDb:
             dsn: 'mysql:host=rmcl-test.dev;dbname=rmcl-test'
@@ -20,8 +20,11 @@ modules:
             cleanup: true
             url: 'http://rmcl-test.dev'
             tablePrefix: wp_
-        WPBrowser:
+        WPWebDriver:
             url: 'http://rmcl-test.dev'
             adminUsername: admin
             adminPassword: password
             adminPath: /wp-admin
+            wait: 5
+            host: '192.168.50.1'
+            browser: chrome

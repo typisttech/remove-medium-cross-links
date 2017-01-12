@@ -1,6 +1,6 @@
 <?php
 $I = new AcceptanceTester($scenario);
-$I->wantTo('see medium cross link footer is rmcl is deactivated');
+$I->wantTo('see medium cross link footer when rmcl is deactivated');
 
 $I->loginAsAdmin();
 $I->amOnPluginsPage();
