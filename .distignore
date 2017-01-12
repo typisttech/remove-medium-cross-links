@@ -9,6 +9,9 @@
 Thumbs.db
 behat.yml
 bin
+CHANGELOG.md
+codeception.yml
+codeception.dist.yml
 circle.yml
 composer.json
 composer.lock

@@ -7,7 +7,7 @@
  * Author URI:      https://www.typist.tech/
  * Text Domain:     remove-medium-cross-links
  * Domain Path:     /languages
- * Version:         1.0.0
+ * Version:         1.0.2
  *
  * @package         Remove_Medium_Cross_Links
  */

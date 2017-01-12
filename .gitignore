@@ -6,8 +6,7 @@ node_modules/
 *.tar.gz
 
 /vendor/
+/build/
+/release/
 
-tests/_output/*
-tests/_output/*
-tests/_output/*
 tests/_output/*
