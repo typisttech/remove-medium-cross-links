@@ -12,7 +12,7 @@
  * @package         Remove_Medium_Cross_Links
  */
 function remove_medium_cross_links() {
-	remove_action( 'init', array( 'Medium_Site', 'init' ) );
+	remove_action( 'init', [ 'Medium_Site', 'init' ] );
 }
 
 if ( ! is_admin() ) {

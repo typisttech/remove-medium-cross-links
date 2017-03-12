@@ -1,12 +1,17 @@
-.DS_Store
-Thumbs.db
-wp-cli.local.yml
-node_modules/
-*.zip
-*.tar.gz
-
-/vendor/
+### Build ###
 /build/
 /release/
 
-tests/_output/*
+### Codeception ###
+/codeception.yml
+/tests/_output/*
+/tests/_support/_generated/
+
+### Composer ###
+/vendor/
+
+### npm ###
+/node_modules/
+
+### PhpStorm ###
+/.idea/

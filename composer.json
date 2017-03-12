@@ -1,24 +1,58 @@
 {
-  "name": "tangrufus/remove-medium-cross-links",
-  "description": "Remove Medium cross links footer from WordPress posts.",
-  "type": "wordpress-plugin",
-  "license": "GPL-2.0+",
-  "support": {
-    "email": "support@typist.tech",
-    "forum": "https://wordpress.org/support/plugin/remove-medium-cross-links",
-    "issues": "https://github.com/tangrufus/remove-medium-cross-links/issues",
-    "source": "https://github.com/tangrufus/remove-medium-cross-links",
-    "wiki": "https://github.com/tangrufus/remove-medium-cross-links/wiki"
-  },
-  "authors": [{
-    "name": "Tang Rufus",
-    "email": "tangrufus@gmail.com",
-    "homepage": "https://www.typist.tech",
-    "role": "Developer"
-  }],
-  "version": "1.0.2",
-  "minimum-stability": "stable",
-  "require-dev": {
-    "lucatume/wp-browser": "^1.19"
-  }
+	"name": "tangrufus/remove-medium-cross-links",
+	"description": "Remove Medium cross links footer from WordPress posts.",
+	"license": "GPL-2.0+",
+	"support": {
+		"email": "support@typist.tech",
+		"forum": "https://wordpress.org/support/plugin/remove-medium-cross-links",
+		"issues": "https://github.com/tangrufus/remove-medium-cross-links/issues",
+		"source": "https://github.com/tangrufus/remove-medium-cross-links",
+		"wiki": "https://github.com/tangrufus/remove-medium-cross-links/wiki"
+	},
+	"authors": [
+		{
+			"name": "Tang Rufus",
+			"email": "tangrufus@gmail.com",
+			"homepage": "https://www.typist.tech",
+			"role": "Developer"
+		}
+	],
+	"require-dev": {
+		"lucatume/wp-browser": "^1.19",
+		"neronmoon/scriptsdev": "dev-move-scripts-dev-into-extra",
+		"wp-coding-standards/wpcs": "^0.10.0"
+	},
+	"scripts": {
+		"check-style": [
+			"phpcs --standard=ruleset.xml --colors -p -s .",
+			"phpcs --standard=tests/ruleset.xml --colors -p -s tests"
+		],
+		"fix-style": [
+			"phpcbf --standard=ruleset.xml -p --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 .",
+			"phpcbf --standard=tests/ruleset.xml -p --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 tests"
+		],
+		"install-dev-extra": [
+			"phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+		]
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/TangRufus/scriptsdev"
+		}
+	],
+	"config": {
+		"optimize-autoloader": true,
+		"sort-packages": true
+	},
+	"extra": {
+		"scripts-dev": {
+			"post-install-cmd": [
+				"@install-dev-extra"
+			],
+			"post-update-cmd": [
+				"@install-dev-extra"
+			]
+		}
+	}
 }

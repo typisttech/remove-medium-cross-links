@@ -1,11 +1,11 @@
-module.exports = function(grunt) {
+module.exports = function ( grunt ) {
 
 	'use strict';
 	var banner = '/**\n * <%= pkg.homepage %>\n * Copyright (c) <%= grunt.template.today("yyyy") %>\n * This file is generated automatically. Do not edit.\n */\n';
 	// Project configuration
-	grunt.initConfig({
+	grunt.initConfig( {
 
-		pkg: grunt.file.readJSON('package.json'),
+		pkg: grunt.file.readJSON( 'package.json' ),
 
 		addtextdomain: {
 			options: {
@@ -136,7 +136,7 @@ module.exports = function(grunt) {
 					'!phpunit.xml',
 					'!multisite.xml',
 					'!phpunit.xml.dist',
-					'!phpcs.ruleset.xml',
+					'!ruleset.xml',
 					'!README.md',
 					'!readme.md',
 					'!release/**',
@@ -157,12 +157,14 @@ module.exports = function(grunt) {
 					archive: 'release/<%= pkg.name %>.zip'
 				},
 				expand: true,
-				files: [{
-					expand: true,
-					dest: '<%= pkg.name %>/',
-					cwd: 'build/',
-					src: ['**'],
-				}, ]
+				files: [
+					{
+						expand: true,
+						dest: '<%= pkg.name %>/',
+						cwd: 'build/',
+						src: ['**'],
+					},
+				]
 			}
 		},
 
@@ -177,14 +179,14 @@ module.exports = function(grunt) {
 			}
 		},
 
-	});
+	} );
 
-	require('load-grunt-tasks')(grunt);
-	grunt.registerTask('i18n', ['addtextdomain', 'makepot']);
-	grunt.registerTask('readme', ['wp_readme_to_markdown']);
-	grunt.registerTask('precommit', ['version', 'readme', 'i18n']);
-	grunt.registerTask('build', ['clean', 'copy', 'compress']);
-	grunt.registerTask('svn-deploy', ['build', 'wp_deploy']);
+	require( 'load-grunt-tasks' )( grunt );
+	grunt.registerTask( 'i18n', ['addtextdomain', 'makepot'] );
+	grunt.registerTask( 'readme', ['wp_readme_to_markdown'] );
+	grunt.registerTask( 'precommit', ['version', 'readme', 'i18n'] );
+	grunt.registerTask( 'build', ['clean', 'copy', 'compress'] );
+	grunt.registerTask( 'svn-deploy', ['build', 'wp_deploy'] );
 
 	grunt.util.linefeed = '\n';
 
