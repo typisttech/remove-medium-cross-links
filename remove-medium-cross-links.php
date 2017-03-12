@@ -20,7 +20,7 @@
  * Author URI:      https://www.typist.tech/
  * Text Domain:     remove-medium-cross-links
  * Domain Path:     /languages
- * Version:         1.0.10
+ * Version:         1.0.11
  */
 
 namespace RMCL;
