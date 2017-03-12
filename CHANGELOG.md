@@ -1,32 +1,18 @@
 # Change Log
 
-## [1.0.10](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.10) (2017-03-12)
-[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.9...1.0.10)
+## [1.0.12](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.12) (2017-03-13)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.0...1.0.12)
 
 **Merged pull requests:**
 
+- TravisCI: Add subversion [\#8](https://github.com/TypistTech/remove-medium-cross-links/pull/8) ([TangRufus](https://github.com/TangRufus))
 - Add back README.txt [\#7](https://github.com/TypistTech/remove-medium-cross-links/pull/7) ([TangRufus](https://github.com/TangRufus))
-
-## [1.0.9](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.9) (2017-03-12)
-[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.8...1.0.9)
-
-**Merged pull requests:**
-
 - Minor fixes [\#6](https://github.com/TypistTech/remove-medium-cross-links/pull/6) ([TangRufus](https://github.com/TangRufus))
-
-## [1.0.8](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.8) (2017-03-12)
-[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.1...1.0.8)
-
-**Merged pull requests:**
-
 - Version bump 1.0.8 [\#5](https://github.com/TypistTech/remove-medium-cross-links/pull/5) ([TangRufus](https://github.com/TangRufus))
 - Add plugin banners and icons [\#4](https://github.com/TypistTech/remove-medium-cross-links/pull/4) ([TangRufus](https://github.com/TangRufus))
 - Add TravisCI deployment [\#3](https://github.com/TypistTech/remove-medium-cross-links/pull/3) ([TangRufus](https://github.com/TangRufus))
 - Use Typist Tech config [\#2](https://github.com/TypistTech/remove-medium-cross-links/pull/2) ([TangRufus](https://github.com/TangRufus))
 - Test on TravisCI [\#1](https://github.com/TypistTech/remove-medium-cross-links/pull/1) ([TangRufus](https://github.com/TangRufus))
-
-## [1.0.1](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.1) (2017-01-12)
-[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.0...1.0.1)
 
 ## [1.0.0](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.0) (2017-01-07)
 
