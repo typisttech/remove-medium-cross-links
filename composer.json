@@ -1,26 +1,37 @@
 {
-	"name": "tangrufus/remove-medium-cross-links",
-	"description": "Remove Medium cross links footer from WordPress posts.",
+	"name": "typisttech/remove-medium-cross-links",
+	"description": "Remove Medium cross links footer from WordPress posts",
+	"keywords": [
+		"wordpress",
+		"wp",
+		"plugin",
+		"medium"
+	],
+	"homepage": "https://www.typist.tech/projects/remove-medium-cross-links",
 	"license": "GPL-2.0+",
-	"support": {
-		"email": "support@typist.tech",
-		"forum": "https://wordpress.org/support/plugin/remove-medium-cross-links",
-		"issues": "https://github.com/tangrufus/remove-medium-cross-links/issues",
-		"source": "https://github.com/tangrufus/remove-medium-cross-links",
-		"wiki": "https://github.com/tangrufus/remove-medium-cross-links/wiki"
-	},
 	"authors": [
+		{
+			"name": "Typist Tech",
+			"email": "remove-medium-cross-links@typist.tech",
+			"homepage": "https://www.typist.tech/"
+		},
 		{
 			"name": "Tang Rufus",
 			"email": "tangrufus@gmail.com",
-			"homepage": "https://www.typist.tech",
+			"homepage": "https://www.typist.tech/",
 			"role": "Developer"
 		}
 	],
+	"support": {
+		"email": "remove-medium-cross-links@typist.tech",
+		"issues": "https://github.com/TypistTech/remove-medium-cross-links/issues",
+		"forum": "https://wordpress.org/support/plugin/remove-medium-cross-links",
+		"source": "https://github.com/TypistTech/remove-medium-cross-links"
+	},
 	"require-dev": {
 		"jakoch/phantomjs-installer": "^2.1",
 		"lucatume/wp-browser": "^1.19",
-		"neronmoon/scriptsdev": "^0.1.0",
+		"neronmoon/scriptsdev": "dev-move-scripts-dev-into-extra",
 		"site5/phantoman": "^1.1",
 		"wp-coding-standards/wpcs": "^0.10.0"
 	},
@@ -28,7 +39,19 @@
 		"build": [
 			"rm -fr vendor",
 			"composer install --no-dev --prefer-dist --no-suggest",
-			"composer archive --format=zip --dir=release --file=remove-medium-cross-links"
+			"npm update",
+			"grunt addtextdomain",
+			"composer archive --format=zip --dir=release --file=remove-medium-cross-links",
+			"unzip -qo release/remove-medium-cross-links.zip -d build"
+		],
+		"pre-tag": [
+			"npm update",
+			"grunt version",
+			"composer update --no-dev --prefer-dist --no-suggest",
+			"grunt addtextdomain",
+			"grunt makepot",
+			"doctoc README.md",
+			"github_changelog_generator --no-verbose"
 		],
 		"check-style": [
 			"phpcs --standard=ruleset.xml --colors -p -s .",
@@ -41,19 +64,28 @@
 		"install-dev-extra": [
 			"PhantomInstaller\\Installer::installPhantomJS",
 			"phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
-		]
+		],
+		"test": "codecept run acceptance"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/TangRufus/scriptsdev"
+		}
+	],
 	"config": {
 		"optimize-autoloader": true,
 		"sort-packages": true
 	},
-	"scripts-dev": {
-		"post-install-cmd": [
-			"@install-dev-extra"
-		],
-		"post-update-cmd": [
-			"@install-dev-extra"
-		]
+	"extra": {
+		"scripts-dev": {
+			"post-install-cmd": [
+				"@install-dev-extra"
+			],
+			"post-update-cmd": [
+				"@install-dev-extra"
+			]
+		}
 	},
 	"archive": {
 		"exclude": [
@@ -61,7 +93,6 @@
 			".*",
 			"!/languages",
 			"!/src",
-			"!/vendor",
 			"!/LICENSE",
 			"!/README.txt",
 			"!/*.php"
