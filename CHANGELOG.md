@@ -1,14 +1,18 @@
 # Change Log
 
 ## [1.0.8](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.8) (2017-03-12)
-[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.0...1.0.8)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.1...1.0.8)
 
 **Merged pull requests:**
 
+- Version bump 1.0.8 [\#5](https://github.com/TypistTech/remove-medium-cross-links/pull/5) ([TangRufus](https://github.com/TangRufus))
 - Add plugin banners and icons [\#4](https://github.com/TypistTech/remove-medium-cross-links/pull/4) ([TangRufus](https://github.com/TangRufus))
 - Add TravisCI deployment [\#3](https://github.com/TypistTech/remove-medium-cross-links/pull/3) ([TangRufus](https://github.com/TangRufus))
 - Use Typist Tech config [\#2](https://github.com/TypistTech/remove-medium-cross-links/pull/2) ([TangRufus](https://github.com/TangRufus))
 - Test on TravisCI [\#1](https://github.com/TypistTech/remove-medium-cross-links/pull/1) ([TangRufus](https://github.com/TangRufus))
+
+## [1.0.1](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.1) (2017-01-12)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.0...1.0.1)
 
 ## [1.0.0](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.0) (2017-01-07)
 
