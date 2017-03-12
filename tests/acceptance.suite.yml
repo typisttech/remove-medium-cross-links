@@ -6,25 +6,7 @@
 
 class_name: AcceptanceTester
 modules:
-    enabled:
-        - \Helper\Acceptance
-        - WPDb
-        - WPWebDriver
-    config:
-        WPDb:
-            dsn: 'mysql:host=rmcl-test.dev;dbname=rmcl-test'
-            user: root
-            password: root
-            dump: tests/_data/dump.sql
-            populate: true
-            cleanup: true
-            url: 'http://rmcl-test.dev'
-            tablePrefix: wp_
-        WPWebDriver:
-            url: 'http://rmcl-test.dev'
-            adminUsername: admin
-            adminPassword: password
-            adminPath: /wp-admin
-            wait: 5
-            host: '192.168.50.1'
-            browser: chrome
+  enabled:
+    - \Helper\Acceptance
+    - WPDb
+    - WPWebDriver

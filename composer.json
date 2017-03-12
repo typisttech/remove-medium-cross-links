@@ -18,11 +18,18 @@
 		}
 	],
 	"require-dev": {
+		"jakoch/phantomjs-installer": "^2.1",
 		"lucatume/wp-browser": "^1.19",
-		"neronmoon/scriptsdev": "dev-move-scripts-dev-into-extra",
+		"neronmoon/scriptsdev": "^0.1.0",
+		"site5/phantoman": "^1.1",
 		"wp-coding-standards/wpcs": "^0.10.0"
 	},
 	"scripts": {
+		"build": [
+			"rm -fr vendor",
+			"composer install --no-dev --prefer-dist --no-suggest",
+			"composer archive --format=zip --dir=release --file=remove-medium-cross-links"
+		],
 		"check-style": [
 			"phpcs --standard=ruleset.xml --colors -p -s .",
 			"phpcs --standard=tests/ruleset.xml --colors -p -s tests"
@@ -32,27 +39,32 @@
 			"phpcbf --standard=tests/ruleset.xml -p --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 tests"
 		],
 		"install-dev-extra": [
+			"PhantomInstaller\\Installer::installPhantomJS",
 			"phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
 		]
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/TangRufus/scriptsdev"
-		}
-	],
 	"config": {
 		"optimize-autoloader": true,
 		"sort-packages": true
 	},
-	"extra": {
-		"scripts-dev": {
-			"post-install-cmd": [
-				"@install-dev-extra"
-			],
-			"post-update-cmd": [
-				"@install-dev-extra"
-			]
-		}
+	"scripts-dev": {
+		"post-install-cmd": [
+			"@install-dev-extra"
+		],
+		"post-update-cmd": [
+			"@install-dev-extra"
+		]
+	},
+	"archive": {
+		"exclude": [
+			"/*",
+			".*",
+			"!/languages",
+			"!/src",
+			"!/vendor",
+			"!/LICENSE",
+			"!/README.txt",
+			"!/*.php"
+		]
 	}
 }
