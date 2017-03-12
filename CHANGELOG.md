@@ -1,14 +1,20 @@
 # Change Log
 
-## [1.0.12](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.12) (2017-03-13)
+## [1.0.13](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.13) (2017-03-13)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.12...1.0.13)
+
+**Merged pull requests:**
+
+- Remove unused code [\#10](https://github.com/TypistTech/remove-medium-cross-links/pull/10) ([TangRufus](https://github.com/TangRufus))
+
+## [1.0.12](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.12) (2017-03-12)
 [Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.0...1.0.12)
 
 **Merged pull requests:**
 
-- TravisCI: Add subversion [\#8](https://github.com/TypistTech/remove-medium-cross-links/pull/8) ([TangRufus](https://github.com/TangRufus))
+- Version bump 1.0.12 [\#9](https://github.com/TypistTech/remove-medium-cross-links/pull/9) ([TangRufus](https://github.com/TangRufus))
 - Add back README.txt [\#7](https://github.com/TypistTech/remove-medium-cross-links/pull/7) ([TangRufus](https://github.com/TangRufus))
 - Minor fixes [\#6](https://github.com/TypistTech/remove-medium-cross-links/pull/6) ([TangRufus](https://github.com/TangRufus))
-- Version bump 1.0.8 [\#5](https://github.com/TypistTech/remove-medium-cross-links/pull/5) ([TangRufus](https://github.com/TangRufus))
 - Add plugin banners and icons [\#4](https://github.com/TypistTech/remove-medium-cross-links/pull/4) ([TangRufus](https://github.com/TangRufus))
 - Add TravisCI deployment [\#3](https://github.com/TypistTech/remove-medium-cross-links/pull/3) ([TangRufus](https://github.com/TangRufus))
 - Use Typist Tech config [\#2](https://github.com/TypistTech/remove-medium-cross-links/pull/2) ([TangRufus](https://github.com/TangRufus))
