@@ -26,9 +26,7 @@
 namespace RMCL;
 
 function remove_medium_cross_links() {
-	if ( ! is_admin() ) {
-		remove_action( 'init', [ 'Medium_Site', 'init' ] );
-	}
+	remove_action( 'init', [ 'Medium_Site', 'init' ] );
 }
 
 add_action( 'init', '\RMCL\remove_medium_cross_links', 5 );
