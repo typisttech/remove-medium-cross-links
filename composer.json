@@ -41,13 +41,12 @@
 			"composer install --no-dev --prefer-dist --no-suggest",
 			"npm update",
 			"grunt addtextdomain",
-			"composer archive --format=zip --dir=release --file=remove-medium-cross-links",
-			"unzip -qo release/remove-medium-cross-links.zip -d build"
+			"composer archive --format=zip --dir=release --file=remove-medium-cross-links"
 		],
 		"pre-tag": [
+			"composer update --no-dev --prefer-dist --no-suggest",
 			"npm update",
 			"grunt version",
-			"composer update --no-dev --prefer-dist --no-suggest",
 			"grunt addtextdomain",
 			"grunt makepot",
 			"doctoc README.md",
