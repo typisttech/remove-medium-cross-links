@@ -21,6 +21,7 @@ addons:
   apt:
     packages:
       - nginx
+      - subversion
 
 notifications:
   email:
@@ -76,6 +77,9 @@ install:
 script:
   - vendor/bin/codecept run
 
+before_deploy:
+  - unzip -qo release/remove-medium-cross-links.zip -d build
+
 deploy:
   - provider: releases
     api_key:
@@ -91,6 +95,7 @@ deploy:
     edge:
       source: TypistTech/dpl
       branch: add-wordpress-plugin-deployment
+    slug: remove-medium-cross-links
     username: tangrufus
     build_dir: build
     assets_dir: assets
