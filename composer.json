@@ -25,6 +25,11 @@
 		"wp-coding-standards/wpcs": "^0.10.0"
 	},
 	"scripts": {
+		"build": [
+			"rm -fr vendor",
+			"composer install --no-dev --prefer-dist --no-suggest",
+			"composer archive --format=zip --dir=release --file=remove-medium-cross-links"
+		],
 		"check-style": [
 			"phpcs --standard=ruleset.xml --colors -p -s .",
 			"phpcs --standard=tests/ruleset.xml --colors -p -s tests"
@@ -48,6 +53,18 @@
 		],
 		"post-update-cmd": [
 			"@install-dev-extra"
+		]
+	},
+	"archive": {
+		"exclude": [
+			"/*",
+			".*",
+			"!/languages",
+			"!/src",
+			"!/vendor",
+			"!/LICENSE",
+			"!/README.txt",
+			"!/*.php"
 		]
 	}
 }
