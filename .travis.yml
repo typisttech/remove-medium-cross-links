@@ -76,6 +76,9 @@ install:
 script:
   - vendor/bin/codecept run
 
+before_deploy:
+  - unzip -qo release/remove-medium-cross-links.zip -d build
+
 deploy:
   - provider: releases
     api_key:
