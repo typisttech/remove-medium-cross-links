@@ -94,6 +94,7 @@ deploy:
     edge:
       source: TypistTech/dpl
       branch: add-wordpress-plugin-deployment
+    slug: remove-medium-cross-links
     username: tangrufus
     build_dir: build
     assets_dir: assets
