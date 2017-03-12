@@ -1,23 +1,38 @@
 {
 	"name": "remove-medium-cross-links",
+	"version": "1.0.2",
+	"description": "Remove Medium cross links footer from WordPress posts",
+	"keywords": [
+		"wordpress",
+		"wp",
+		"plugin",
+		"medium"
+	],
+	"homepage": "https://www.typist.tech/projects/remove-medium-cross-links",
+	"bugs": {
+		"email": "remove-medium-cross-links@typist.tech",
+		"url": "https://github.com/TypistTech/remove-medium-cross-links/issues"
+	},
 	"license": "GPL-2.0+",
-	"main": "Gruntfile.js",
-	"author": "Tang Rufus",
+	"author": "Typist Tech <remove-medium-cross-links@typist.tech> (https://www.typist.tech/)",
+	"contributors": [
+		"Tang Rufus <tangrufus@gmail.com> (https://www.typist.tech/)"
+	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/TangRufus/remove-medium-cross-links.git"
+		"url": "https://github.com/TypistTech/remove-medium-cross-links.git"
 	},
-	"version": "1.0.2",
+	"main": "Gruntfile.js",
 	"devDependencies": {
-		"gh-release": "^2.2.0",
-		"grunt": "~0.4.5",
-		"grunt-contrib-clean": "^1.0.0",
-		"grunt-contrib-compress": "^1.3.0",
-		"grunt-contrib-copy": "^1.0.0",
+		"grunt": "^1.0.1",
 		"grunt-version": "^1.1.1",
-		"grunt-wp-deploy": "^1.2.1",
-		"grunt-wp-i18n": "~0.5.0",
-		"grunt-wp-readme-to-markdown": "~1.0.0",
+		"grunt-wp-i18n": "^1.0.0",
 		"load-grunt-tasks": "^3.5.2"
+	},
+	"private": true,
+	"pot": {
+		"languageteam": "Typist Tech <remove-medium-cross-links@typist.tech>",
+		"lasttranslator": "Typist Tech <remove-medium-cross-links@typist.tech>",
+		"reportmsgidbugsto": "https://wordpress.org/support/plugin/remove-medium-cross-links"
 	}
 }

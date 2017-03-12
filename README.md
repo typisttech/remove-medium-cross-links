@@ -1,43 +1,25 @@
-# Remove Medium Cross Links #
-**Contributors:** tangrufus, typisttech  
-**Tags:** medium  
-**Donate link:** https://www.typist.tech/donate/remove-medium-cross-links  
-**Requires at least:** 3.7  
-**Tested up to:** 4.7.1  
-**Stable tag:** 1.0.2  
-**License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+# Remove Medium Cross Links 
+
+[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/remove-medium-cross-links.svg)](https://wordpress.org/plugins/remove-medium-cross-links/)
+[![WordPress](https://img.shields.io/wordpress/plugin/dt/remove-medium-cross-links.svg)](https://wordpress.org/plugins/remove-medium-cross-links/)
+[![WordPress rating](https://img.shields.io/wordpress/plugin/r/remove-medium-cross-links.svg)](https://wordpress.org/plugins/remove-medium-cross-links/)
+[![WordPress](https://img.shields.io/wordpress/v/remove-medium-cross-links.svg)](https://wordpress.org/plugins/remove-medium-cross-links/)
+[![PHP Versions Tested](http://php-eye.com/badge/typisttech/remove-medium-cross-links/tested.svg)](https://travis-ci.org/TypistTech/remove-medium-cross-links)
+[![Build Status](https://travis-ci.org/TypistTech/remove-medium-cross-links.svg?branch=master)](https://travis-ci.org/TypistTech/remove-medium-cross-links)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TypistTech/remove-medium-cross-links/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/TypistTech/remove-medium-cross-links/?branch=master)
+[![Dependency Status](https://gemnasium.com/badges/github.com/TypistTech/remove-medium-cross-links.svg)](https://gemnasium.com/github.com/TypistTech/remove-medium-cross-links)
+[![Latest Unstable Version](https://poser.pugx.org/typisttech/remove-medium-cross-links/v/unstable)](https://packagist.org/packages/typisttech/remove-medium-cross-links)
+[![License](https://poser.pugx.org/typisttech/remove-medium-cross-links/license)](https://packagist.org/packages/typisttech/remove-medium-cross-links)
+[![Hire Typist Tech](https://img.shields.io/badge/Hire-Typist%20Tech-ff69b4.svg)](https://www.typist.tech/contact/)
 
 Remove Medium cross links footer from WordPress posts.
 
-## Description ##
-### Features ###
-* Remove Medium cross links footer from WordPress
-* It keeps the cross links footer  on Medium.com
-
-Check Typist Tech blog about [Cross Posting WordPress to Medium without Hurting SEO](https://www.typist.tech/cross-posting-wordpress-to-medium-without-hurting-seo/)
-
-### Things you need to know ###
-
-* You need the official [Medium plugin](https://wordpress.org/plugins/medium/) .
-* This plugin was not built by Medium.
-
-If you have written an article about `Remove Medium Cross Links`, do [let me know](https://www.typist.tech/contact-us/).
-
-### Who make this plugin? ###
-
-[Tang Rufus](mailto://tangrufus@gmail.com), a freelance developer for hire.
-I make [Typist Tech](https://www.typist.tech/) also.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-## Installation ##
-1. Download the plugin.
-1. Go to the WordPress Plugin menu and activate it.
-1. That's it!
+- [To be continued..](#to-be-continued)
 
-## Changelog ##
-### 1.0.1 ###
-* Use Grunt for automation
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### 1.0.0 ###
-* Initial release
+## To be continued..
