@@ -21,7 +21,6 @@ addons:
   apt:
     packages:
       - nginx
-      - subversion
 
 notifications:
   email:
