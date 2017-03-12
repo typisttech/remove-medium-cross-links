@@ -32,16 +32,11 @@ If you have written an article about `Remove Medium Cross Links`, do [let me kno
 
 = For Developers =
 
-`Remove Medium Cross Links` is open source and hosted on [GitHub](https://github.com/TypistTech/remove-medium-cross-links). Feel free to make pull requests.
+Remove Medium Cross Links is open source and hosted on [GitHub](https://github.com/TypistTech/remove-medium-cross-links). Feel free to make pull requests.
 
 = Who make this plugin? =
 
 [Tang Rufus](mailto:info@typist.tech), a freelance developer for hire.
-I make [Typist Tech](https://www.typist.tech/) also.
-
-= Who make this plugin? =
-
-[Tang Rufus](mailto://tangrufus@gmail.com), a freelance developer for hire.
 I make [Typist Tech](https://www.typist.tech/) also.
 
 = Support =
@@ -66,19 +61,16 @@ If you like the plugin, feel free to [rate it](https://wordpress.org/support/plu
 
 You can add your own translation at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/remove-medium-cross-links).
 
-
 = Who make this plugin? =
 
 [Tang Rufus](mailto://tangrufus@gmail.com), a freelance developer for hire.
 I make [Typist Tech](https://www.typist.tech/) also.
-
 
 = What if I want more? =
 
 Hire me!
 
 Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://www.typist.tech/contact/).
-
 
 == Installation ==
 
@@ -104,6 +96,10 @@ Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [co
 == Changelog ==
 
 Full change log available at [GitHub](https://github.com/TypistTech/remove-medium-cross-links/blob/master/CHANGELOG.md)
+
+= 1.0.13 =
+
+* Remove unused code
 
 = 1.0.12 =
 
