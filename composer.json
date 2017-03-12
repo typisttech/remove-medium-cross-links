@@ -37,10 +37,6 @@
 	},
 	"scripts": {
 		"build": [
-			"rm -fr vendor",
-			"composer install --no-dev --prefer-dist --no-suggest",
-			"npm update",
-			"grunt addtextdomain",
 			"composer archive --format=zip --dir=release --file=remove-medium-cross-links"
 		],
 		"pre-tag": [
@@ -91,7 +87,6 @@
 			"/*",
 			".*",
 			"!/languages",
-			"!/src",
 			"!/LICENSE",
 			"!/README.txt",
 			"!/*.php"

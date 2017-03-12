@@ -14,8 +14,6 @@ cache:
   apt: true
   directories:
     - $HOME/.composer/cache/files
-    - $HOME/node_modules
-    - node_modules
 
 addons:
   apt:
@@ -56,10 +54,6 @@ before_install:
   - tnw-install-nginx
   - tnw-install-wordpress
   - tnw-prepare-codeception
-
-  # For grunt tasks
-  - nvm install stable
-  - npm update -g npm
 
   # Build the production plugin
   - travis_retry composer build
