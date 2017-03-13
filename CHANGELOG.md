@@ -1,10 +1,18 @@
 # Change Log
 
-## [1.0.13](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.13) (2017-03-13)
+## [1.0.14](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.14) (2017-03-13)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.13...1.0.14)
+
+**Merged pull requests:**
+
+- TravisCI: Deploy to GitHub release on PHP 7.0 [\#12](https://github.com/TypistTech/remove-medium-cross-links/pull/12) ([TangRufus](https://github.com/TangRufus))
+
+## [1.0.13](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.13) (2017-03-12)
 [Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.12...1.0.13)
 
 **Merged pull requests:**
 
+- Version bump 1.0.13 [\#11](https://github.com/TypistTech/remove-medium-cross-links/pull/11) ([TangRufus](https://github.com/TangRufus))
 - Remove unused code [\#10](https://github.com/TypistTech/remove-medium-cross-links/pull/10) ([TangRufus](https://github.com/TangRufus))
 
 ## [1.0.12](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.12) (2017-03-12)

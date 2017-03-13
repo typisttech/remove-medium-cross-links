@@ -4,7 +4,7 @@ Tags: medium
 Donate link: https://www.typist.tech/donate/remove-medium-cross-links
 Requires at least: 4.7
 Tested up to: 4.7.3
-Stable tag: 1.0.13
+Stable tag: 1.0.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -96,6 +96,10 @@ Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [co
 == Changelog ==
 
 Full change log available at [GitHub](https://github.com/TypistTech/remove-medium-cross-links/blob/master/CHANGELOG.md)
+
+= 1.0.14 =
+
+* Change deployment config
 
 = 1.0.13 =
 
