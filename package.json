@@ -1,6 +1,6 @@
 {
     "name": "remove-medium-cross-links",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "Remove Medium cross links footer from WordPress posts",
     "keywords": [
         "wordpress",

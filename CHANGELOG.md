@@ -5,6 +5,7 @@
 
 **Merged pull requests:**
 
+- Version bump 1.0.14 [\#13](https://github.com/TypistTech/remove-medium-cross-links/pull/13) ([TangRufus](https://github.com/TangRufus))
 - TravisCI: Deploy to GitHub release on PHP 7.0 [\#12](https://github.com/TypistTech/remove-medium-cross-links/pull/12) ([TangRufus](https://github.com/TangRufus))
 
 ## [1.0.13](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.13) (2017-03-12)

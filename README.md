@@ -19,7 +19,25 @@ Remove Medium cross links footer from WordPress posts.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [To be continued..](#to-be-continued)
+- [Installation Instructions](#installation-instructions)
+  - [Via Manually Upload](#via-manually-upload)
+  - [Via WP CLI](#via-wp-cli)
+- [Developing](#developing)
+- [Build from Source](#build-from-source)
+- [Branches](#branches)
+  - [Master](#master)
+  - [Nightly](#nightly)
+- [Support!](#support)
+  - [Donate via PayPal *](#donate-via-paypal-)
+  - [Why don't you hire me?](#why-dont-you-hire-me)
+  - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
+- [Running the Tests](#running-the-tests)
+- [Feedback](#feedback)
+- [Change log](#change-log)
+- [Security](#security)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
