@@ -1,2 +1,4 @@
 <?php
-// This is global bootstrap for autoloading
+
+declare(strict_types=1);
+// This is global bootstrap for autoloading.

@@ -1,6 +1,9 @@
 language: php
 
-sudo: false
+dist: trusty
+
+# Wait until travis bug fixes
+sudo: require
 
 branches:
   only:
@@ -12,6 +15,7 @@ services:
 
 cache:
   apt: true
+  yarn: true
   directories:
     - $HOME/.composer/cache/files
 
@@ -19,11 +23,6 @@ addons:
   apt:
     packages:
       - nginx
-
-notifications:
-  email:
-    on_success: never
-    on_failure: change
 
 php:
   - 7.0
@@ -36,6 +35,7 @@ env:
   matrix:
     - WP_VERSION=nightly
     - WP_VERSION=latest
+    - WP_VERSION=4.7.4
     - WP_VERSION=4.7.3
 
 matrix:
@@ -97,4 +97,18 @@ deploy:
       condition: "$WP_VERSION = latest"
       php: 7.0
       tags: true
+      repo: TypistTech/remove-medium-cross-links
+  - provider: build-branch
+    edge:
+      source: TypistTech/dpl
+      branch: add-build-branch
+    skip_cleanup: true
+    github_token: $GITHUB_ACCESS_TOKEN
+    local_dir: build
+    target_branch: nightly
+    project_name: "Remove Medium Cross Links"
+    on:
+      branch: master
+      condition: "$WP_VERSION = latest"
+      php: 7.0
       repo: TypistTech/remove-medium-cross-links
