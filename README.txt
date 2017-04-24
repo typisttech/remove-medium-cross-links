@@ -3,8 +3,8 @@ Contributors: tangrufus, typisttech
 Tags: medium
 Donate link: https://www.typist.tech/donate/remove-medium-cross-links
 Requires at least: 4.7
-Tested up to: 4.7.3
-Stable tag: 1.0.14
+Tested up to: 4.7.4
+Stable tag: 1.0.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,7 +32,7 @@ If you have written an article about `Remove Medium Cross Links`, do [let me kno
 
 = For Developers =
 
-Remove Medium Cross Links is open source and hosted on [GitHub](https://github.com/TypistTech/remove-medium-cross-links). Feel free to make pull requests.
+Remove Medium Cross Links is open source and hosted on [GitHub](https://github.com/TypistTech/remove-medium-cross-links). Feel free to make [pull requests](https://github.com/Typisttech/remove-medium-cross-links/pulls).
 
 = Who make this plugin? =
 
@@ -41,30 +41,51 @@ I make [Typist Tech](https://www.typist.tech/) also.
 
 = Support =
 
-We hang out in the WordPress [support forum](https://wordpress.org/support/plugin/remove-medium-cross-links) for this plugin. However, to save time so that we can spend it on development, please read the plugin's [FAQs](https://wordpress.org/plugins/remove-medium-cross-links/faq/) first. Before going there, and ensure that you have updated this plugin and WordPress to the latest released version and installed PHP 7 or later.
+To save time so that we can spend it on development, please read the plugin's [FAQs](https://wordpress.org/plugins/remove-medium-cross-links/faq/) first.
+Before requesting support, and ensure that you have updated Remove Medium Cross Links and WordPress to the latest released version and installed PHP 7 or later.
 
-= What if I want more? =
+We hang out in the WordPress [support forum](https://wordpress.org/support/plugin/remove-medium-cross-links) for this plugin.
 
-Hire me!
-
-Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://www.typist.tech/contact/).
+If you know what `GitHub` is, use [GitHub issues](https://github.com/Typisttech/remove-medium-cross-links/issues) instead.
 
 == Frequently Asked Questions ==
 
-= How to get support? =
+= What version of PHP do I need? =
 
-We hang out in the WordPress [support forum](https://wordpress.org/support/plugin/remove-medium-cross-links) for this plugin. However, to save time so that we can spend it on development, please read the plugin's [FAQs](https://wordpress.org/plugins/remove-medium-cross-links/faq/) first. Before going there, and ensure that you have updated this plugin and WordPress to the latest released version and installed PHP 7 or later.
+PHP 7 or later.
 
-= How can I support this plugin? =
+= Is this plugin written by A Medium Corporation? =
 
-If you like the plugin, feel free to [rate it](https://wordpress.org/support/plugin/remove-medium-cross-links/reviews/#new-post) or [donate via PayPal](https://www.typist.tech/donate/remove-medium-cross-links/). Thanks a lot! :)
+No.
+This plugin is a [Typist Tech](https://www.typist.tech) project.
+
+= Does this plugin available in my language? =
+
+English works out of the box.
+
+Traditional Chinese language pack is available [here](https://translate.wordpress.org/projects/wp-plugins/remove-medium-cross-links/language-packs).
 
 You can add your own translation at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/remove-medium-cross-links).
 
-= Who make this plugin? =
+= How to get support? =
 
-[Tang Rufus](mailto://tangrufus@gmail.com), a freelance developer for hire.
-I make [Typist Tech](https://www.typist.tech/) also.
+Use the WordPress support forum for this plugin at [https://wordpress.org/support/plugin/remove-medium-cross-links](https://wordpress.org/support/plugin/remove-medium-cross-links).
+
+Make sure you have read the plugin's FAQs at [https://wordpress.org/plugins/remove-medium-cross-links/faq/](https://wordpress.org/plugins/remove-medium-cross-links/faq/). And, updated Remove Medium Cross Links and WordPress to the latest released version before asking questions.
+
+If you know what `GitHub` is, use [GitHub issues](https://github.com/Typisttech/remove-medium-cross-links/issues) instead.
+
+= How can I support this plugin? =
+
+If you like the plugin, feel free to:
+
+* Give us a 5-star review on [WordPress.org](https://wordpress.org/support/plugin/remove-medium-cross-links/reviews/#new-post)
+* Donate via [PayPal](https://www.typist.tech/donate/remove-medium-cross-links/). Thanks a lot! :)
+* Translate it at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/remove-medium-cross-links).
+
+Besides, `Remove Medium Cross Links` is open source and hosted on [GitHub](https://github.com/TypistTech/remove-medium-cross-links). Feel free to make pull requests.
+
+Last but not least, you can hire me. Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://www.typist.tech/contact/).
 
 = What if I want more? =
 
@@ -96,6 +117,10 @@ Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [co
 == Changelog ==
 
 Full change log available at [GitHub](https://github.com/TypistTech/remove-medium-cross-links/blob/master/CHANGELOG.md)
+
+= 1.0.15 =
+
+* Bug fix
 
 = 1.0.14 =
 

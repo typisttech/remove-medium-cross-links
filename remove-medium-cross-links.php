@@ -4,12 +4,14 @@
  *
  * Remove Medium cross links footer from WordPress posts.
  *
- * @package   RMCL
- * @author    Typist Tech <remove-medium-cross-links@typist.tech>
+ * @package RMCL
+ *
+ * @author Typist Tech <remove-medium-cross-links@typist.tech>
  * @copyright 2017 Typist Tech
- * @license   GPL-2.0+
- * @see       https://www.typist.tech/projects/remove-medium-cross-links
- * @see       https://wordpress.org/plugins/remove-medium-cross-links/
+ * @license GPL-2.0+
+ *
+ * @see https://www.typist.tech/projects/remove-medium-cross-links
+ * @see https://wordpress.org/plugins/remove-medium-cross-links/
  */
 
 /**
@@ -23,10 +25,16 @@
  * Version:         1.0.14
  */
 
+declare(strict_types=1);
+
 namespace RMCL;
 
-function remove_medium_cross_links() {
-	remove_action( 'init', [ 'Medium_Site', 'init' ] );
+/**
+ * Remove Medium_Site init action.
+ */
+function remove_medium_cross_links()
+{
+    remove_action('init', [ 'Medium_Site', 'init' ]);
 }
 
-add_action( 'init', '\RMCL\remove_medium_cross_links', 5 );
+add_action('init', '\RMCL\remove_medium_cross_links', 5);

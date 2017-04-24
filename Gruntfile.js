@@ -4,9 +4,11 @@
  * Remove Medium cross links footer from WordPress posts.
  *
  * @package RMCL
+ *
  * @author Typist Tech <remove-medium-cross-links@typist.tech>
  * @copyright 2017 Typist Tech
  * @license GPL-2.0+
+ *
  * @see https://www.typist.tech/projects/remove-medium-cross-links
  * @see https://wordpress.org/plugins/remove-medium-cross-links/
  */
