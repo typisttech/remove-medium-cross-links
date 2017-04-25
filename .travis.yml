@@ -95,7 +95,7 @@ deploy:
     skip_cleanup: true
     on:
       condition: "$WP_VERSION = latest"
-      php: 7.0
+      php: 7.1
       tags: true
       repo: TypistTech/remove-medium-cross-links
   - provider: build-branch

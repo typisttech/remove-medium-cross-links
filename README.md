@@ -97,10 +97,13 @@ $ composer install
 
 ## Build from Source
 
-These commands build the plugin into `release/remove-medium-cross-links.zip`.
+This command build the plugin into `release/remove-medium-cross-links.zip`.
 
-1. `$ composer build`
-2. `release/remove-medium-cross-links.zip`
+```bash
+$ composer build
+```
+
+Note: You need both `composer ` and `yarn` installed.
 
 
 

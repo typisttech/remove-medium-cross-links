@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.15](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.15) (2017-04-24)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.14...1.0.15)
+
+**Merged pull requests:**
+
+- Apply TypistTech common config [\#14](https://github.com/TypistTech/remove-medium-cross-links/pull/14) ([TangRufus](https://github.com/TangRufus))
+
 ## [1.0.14](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.14) (2017-03-13)
 [Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.13...1.0.14)
 
