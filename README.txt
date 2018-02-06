@@ -2,7 +2,7 @@
 Contributors: tangrufus, typisttech
 Tags: medium
 Donate link: https://typist.tech/donate/remove-medium-cross-links
-Requires at least: 4.8.5
+Requires at least: 4.8
 Requires PHP: 7.1.0
 Tested up to: 4.9
 Stable tag: 1.0.16

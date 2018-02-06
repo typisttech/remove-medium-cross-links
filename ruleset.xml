@@ -18,6 +18,11 @@
 
     <description>PSR 2 and WordPress Coding Standards for Plugins</description>
 
+    <file>./</file>
+
+    <config name="minimum_supported_wp_version" value="4.8"/>
+
+    <exclude-pattern>*.js</exclude-pattern>
     <exclude-pattern>/build/*</exclude-pattern>
     <exclude-pattern>/lib/*</exclude-pattern>
     <exclude-pattern>/node_modules/*</exclude-pattern>
@@ -25,16 +30,16 @@
     <exclude-pattern>/tests/_data/*</exclude-pattern>
     <exclude-pattern>/tests/_output/*</exclude-pattern>
     <exclude-pattern>/vendor/*</exclude-pattern>
-    <exclude-pattern>/Gruntfile.js</exclude-pattern>
 
     <rule ref="PSR2"/>
 
     <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
-        <exclude-pattern>/*.php</exclude-pattern>
+        <exclude-pattern>/remove-medium-cross-links.php</exclude-pattern>
     </rule>
 
     <rule ref="WordPress">
         <exclude name="Generic.Classes.OpeningBraceSameLine.BraceOnNewLine"/>
+        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
         <exclude name="Generic.Functions.OpeningFunctionBraceKernighanRitchie.BraceOnNewLine"/>
         <exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
 
@@ -44,6 +49,8 @@
         <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint"/>
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen"/>
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpenHint"/>
+
+        <exclude name="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned"/>
 
         <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
 
@@ -67,22 +74,16 @@
         </properties>
     </rule>
 
-    <rule ref="WordPress.WP.DeprecatedFunctions">
-        <properties>
-            <property name="minimum_supported_version" value="4.6"/>
-        </properties>
-    </rule>
-
     <rule ref="WordPress.WP.I18n">
         <properties>
-            <property name="text_domain" type="array" value="sunny"/>
+            <property name="text_domain" type="array" value="remove-medium-cross-links"/>
         </properties>
     </rule>
 
     <!--Tests-->
 
-    <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
-        <exclude-pattern>tests/_support/AcceptanceTester.php</exclude-pattern>
+    <rule ref="PEAR.Files.IncludingFile.UseRequire">
+        <exclude-pattern>*/_bootstrap.php</exclude-pattern>
     </rule>
 
     <rule ref="Squiz.Commenting.FileComment.WrongStyle">
