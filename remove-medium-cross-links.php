@@ -22,7 +22,7 @@
  * Author URI:      https://typist.tech/
  * Text Domain:     remove-medium-cross-links
  * Domain Path:     /languages
- * Version:         1.0.16
+ * Version:         1.1.0
  */
 
 declare(strict_types=1);

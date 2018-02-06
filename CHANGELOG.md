@@ -1,5 +1,20 @@
 # Change Log
 
+## [1.1.0](https://github.com/TypistTech/remove-medium-cross-links/tree/1.1.0) (2018-02-06)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.16...1.1.0)
+
+**Merged pull requests:**
+
+- Update test config & dependencies [\#17](https://github.com/TypistTech/remove-medium-cross-links/pull/17) ([TangRufus](https://github.com/TangRufus))
+- Update TravisCI config [\#16](https://github.com/TypistTech/remove-medium-cross-links/pull/16) ([TangRufus](https://github.com/TangRufus))
+
+## [1.0.16](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.16) (2017-04-25)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.15...1.0.16)
+
+**Merged pull requests:**
+
+- Update deployment settings [\#15](https://github.com/TypistTech/remove-medium-cross-links/pull/15) ([TangRufus](https://github.com/TangRufus))
+
 ## [1.0.15](https://github.com/TypistTech/remove-medium-cross-links/tree/1.0.15) (2017-04-24)
 [Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.14...1.0.15)
 
