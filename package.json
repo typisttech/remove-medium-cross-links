@@ -8,15 +8,15 @@
         "plugin",
         "medium"
     ],
-    "homepage": "https://www.typist.tech/projects/remove-medium-cross-links",
+    "homepage": "https://typist.tech/projects/remove-medium-cross-links",
     "bugs": {
         "email": "remove-medium-cross-links@typist.tech",
         "url": "https://github.com/TypistTech/remove-medium-cross-links/issues"
     },
-    "license": "GPL-2.0+",
-    "author": "Typist Tech <remove-medium-cross-links@typist.tech> (https://www.typist.tech/)",
+    "license": "GPL-2.0-or-later",
+    "author": "Typist Tech <remove-medium-cross-links@typist.tech> (https://typist.tech/)",
     "contributors": [
-        "Tang Rufus <tangrufus@gmail.com> (https://www.typist.tech/)"
+        "Tang Rufus <tangrufus@gmail.com> (https://typist.tech/)"
     ],
     "repository": {
         "type": "git",

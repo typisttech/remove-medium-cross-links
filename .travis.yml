@@ -1,10 +1,5 @@
 language: php
 
-dist: trusty
-
-# TravisCI hangs after build completed
-sudo: required
-
 branches:
   only:
     - master
@@ -23,10 +18,12 @@ addons:
   apt:
     packages:
       - nginx
+  hosts:
+    - wp.dev
 
 php:
-  - 7.0
   - 7.1
+  - 7.2
   - nightly
 
 env:
@@ -35,8 +32,8 @@ env:
   matrix:
     - WP_VERSION=nightly
     - WP_VERSION=latest
-    - WP_VERSION=4.8
-    - WP_VERSION=4.7.5
+    - WP_VERSION=4.9.3
+    - WP_VERSION=4.8.5
 
 matrix:
   allow_failures:
@@ -49,7 +46,7 @@ before_install:
   - if [[ $(phpenv version-name) != "nightly" ]]; then phpenv config-rm xdebug.ini; fi
 
   # Install helper scripts
-  - travis_retry composer global require --prefer-dist --no-suggest typisttech/travis-nginx-wordpress:"^2.0"
+  - travis_retry composer global require --prefer-dist --no-suggest typisttech/travis-nginx-wordpress:"^3.0"
   - export PATH=$HOME/.composer/vendor/bin:$PATH
   - tnw-install-nginx
   - tnw-install-wordpress
@@ -80,7 +77,7 @@ deploy:
     skip_cleanup: true
     on:
       condition: "$WP_VERSION = latest"
-      php: 7.0
+      php: 7.1
       tags: true
       repo: TypistTech/remove-medium-cross-links
   - provider: wordpress-plugin
@@ -94,7 +91,7 @@ deploy:
     skip_cleanup: true
     on:
       condition: "$WP_VERSION = latest"
-      php: 7.1
+      php: 7.2
       tags: true
       repo: TypistTech/remove-medium-cross-links
   - provider: pages
@@ -106,5 +103,5 @@ deploy:
     on:
       branch: master
       condition: "$WP_VERSION = latest"
-      php: 7.0
+      php: 7.1
       repo: TypistTech/remove-medium-cross-links

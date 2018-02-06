@@ -7,19 +7,19 @@
  * @package   RMCL
  *
  * @author    Typist Tech <remove-medium-cross-links@typist.tech>
- * @copyright 2017 Typist Tech
- * @license   GPL-2.0+
+ * @copyright 2017-2018 Typist Tech
+ * @license   GPL-2.0-or-later
  *
- * @see       https://www.typist.tech/projects/remove-medium-cross-links
+ * @see       https://typist.tech/projects/remove-medium-cross-links
  * @see       https://wordpress.org/plugins/remove-medium-cross-links/
  */
 
 /**
  * Plugin Name:     Remove Medium Cross Links
- * Plugin URI:      https://www.typist.tech/projects/remove-medium-cross-links
+ * Plugin URI:      https://typist.tech/projects/remove-medium-cross-links
  * Description:     Remove Medium cross links footer from WordPress posts.
  * Author:          Typist Tech
- * Author URI:      https://www.typist.tech/
+ * Author URI:      https://typist.tech/
  * Text Domain:     remove-medium-cross-links
  * Domain Path:     /languages
  * Version:         1.0.16

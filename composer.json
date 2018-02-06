@@ -7,18 +7,18 @@
         "plugin",
         "medium"
     ],
-    "homepage": "https://www.typist.tech/projects/remove-medium-cross-links",
-    "license": "GPL-2.0+",
+    "homepage": "https://typist.tech/projects/remove-medium-cross-links",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Typist Tech",
             "email": "remove-medium-cross-links@typist.tech",
-            "homepage": "https://www.typist.tech/"
+            "homepage": "https://typist.tech/"
         },
         {
             "name": "Tang Rufus",
             "email": "tangrufus@gmail.com",
-            "homepage": "https://www.typist.tech/",
+            "homepage": "https://typist.tech/",
             "role": "Developer"
         }
     ],
@@ -30,10 +30,10 @@
     },
     "require-dev": {
         "jakoch/phantomjs-installer": "^2.1",
-        "lucatume/wp-browser": "^1.19",
-        "neronmoon/scriptsdev": "^0.1.1",
-        "site5/phantoman": "^1.1",
-        "wp-coding-standards/wpcs": "^0.11.0"
+        "lucatume/wp-browser": "^1.22",
+        "neronmoon/scriptsdev": "^0.1.2",
+        "site5/phantoman": "^2.0",
+        "wp-coding-standards/wpcs": "^0.14.0"
     },
     "scripts": {
         "build": [
