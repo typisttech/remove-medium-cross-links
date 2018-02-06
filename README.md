@@ -150,7 +150,7 @@ $ composer test
 
 We also test all PHP files against [PSR-2: Coding Style Guide](http://www.php-fig.org/psr/psr-2/) and part of the [WordPress coding standard](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards).
 
-Check the code style with ``$ composer check-style`` and fix it with ``$ composer fix-style``.
+Check the code style with ``$ composer check-style``.
 
 
 
@@ -190,5 +190,5 @@ Full list of contributors can be found [here](https://github.com/TypistTech/remo
 
 ## License
 
-[Remove Medium Cross Links](https://github.com/TypistTech/remove-medium-cross-links) is licensed under the GPLv2 (or later) from the [Free Software Foundation](http://www.fsf.org/).
-Please see [License File](LICENSE) for more information.
+[Remove Medium Cross Links](https://wordpress.org/plugins/remove-medium-cross-links/) is licensed under the GPLv2 (or later) from the [Free Software Foundation](http://www.fsf.org/).
+Please see [License File](./LICENSE) for more information.

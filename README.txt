@@ -2,8 +2,9 @@
 Contributors: tangrufus, typisttech
 Tags: medium
 Donate link: https://typist.tech/donate/remove-medium-cross-links
-Requires at least: 4.7
-Tested up to: 4.8
+Requires at least: 4.8.5
+Requires PHP: 7.1.0
+Tested up to: 4.9
 Stable tag: 1.0.16
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -52,7 +53,7 @@ If you know what `GitHub` is, use [GitHub issues](https://github.com/Typisttech/
 
 = What version of PHP do I need? =
 
-PHP 7 or later.
+PHP 7.1 or later.
 
 = Is this plugin written by A Medium Corporation? =
 
@@ -80,7 +81,7 @@ If you know what `GitHub` is, use [GitHub issues](https://github.com/Typisttech/
 If you like the plugin, feel free to:
 
 * Give us a 5-star review on [WordPress.org](https://wordpress.org/support/plugin/remove-medium-cross-links/reviews/#new-post)
-* Donate via [PayPal](https://typist.tech/donate/remove-medium-cross-links/). Thanks a lot! :)
+* [Donate](https://typist.tech/donate/remove-medium-cross-links/). Thanks a lot! :)
 * Translate it at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/remove-medium-cross-links).
 
 Besides, `Remove Medium Cross Links` is open source and hosted on [GitHub](https://github.com/TypistTech/remove-medium-cross-links). Feel free to make pull requests.
@@ -92,27 +93,6 @@ Last but not least, you can hire me. Shoot me an email at [info@typist.tech](mai
 Hire me!
 
 Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://typist.tech/contact/).
-
-== Installation ==
-
-= Via WordPress admin dashboard =
-
-1. Log in to your site’s Dashboard (e.g. www.your-domain.com/wp-admin)
-1. Click on the `Plugins` tab in the left panel, then click “Add New”
-1. Search for `Remove Medium Cross Links` and the latest version will appear at the top of the list of results
-1. Install it by clicking the `Install Now` link
-1. When installation finishes, click `Activate Plugin`
-
-= Via Manual Upload =
-
-1. Download the plugin from [wordpress.org](https://downloads.wordpress.org/plugin/remove-medium-cross-links.zip)
-1. Unzip it
-1. Upload it to `wp-content/plugins/`
-1. Go to the WordPress plugin menu and activate it
-
-= Via WP CLI =
-
-1. `$ wp plugin install remove-medium-cross-links --activate`
 
 == Changelog ==
 
