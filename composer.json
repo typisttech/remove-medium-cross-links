@@ -7,18 +7,18 @@
         "plugin",
         "medium"
     ],
-    "homepage": "https://www.typist.tech/projects/remove-medium-cross-links",
+    "homepage": "https://typist.tech/projects/remove-medium-cross-links",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Typist Tech",
             "email": "remove-medium-cross-links@typist.tech",
-            "homepage": "https://www.typist.tech/"
+            "homepage": "https://typist.tech/"
         },
         {
             "name": "Tang Rufus",
             "email": "tangrufus@gmail.com",
-            "homepage": "https://www.typist.tech/",
+            "homepage": "https://typist.tech/",
             "role": "Developer"
         }
     ],

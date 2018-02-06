@@ -1,7 +1,7 @@
 === Remove Medium Cross Links ===
 Contributors: tangrufus, typisttech
 Tags: medium
-Donate link: https://www.typist.tech/donate/remove-medium-cross-links
+Donate link: https://typist.tech/donate/remove-medium-cross-links
 Requires at least: 4.7
 Tested up to: 4.8
 Stable tag: 1.0.16
@@ -17,18 +17,18 @@ Remove Medium cross links footer from WordPress posts.
 * Remove Medium cross links footer from WordPress
 * It keeps the cross links footer  on Medium.com
 
-Check Typist Tech blog about [Cross Posting WordPress to Medium without Hurting SEO](https://www.typist.tech/cross-posting-wordpress-to-medium-without-hurting-seo/)
+Check Typist Tech blog about [Cross Posting WordPress to Medium without Hurting SEO](https://typist.tech/cross-posting-wordpress-to-medium-without-hurting-seo/)
 
 = Things you need to know =
 
 * You need the official [Medium plugin](https://wordpress.org/plugins/medium/) .
 * This plugin was not built by Medium.
 
-> If you like the plugin, feel free to [rate it](https://wordpress.org/support/plugin/remove-medium-cross-links/reviews/#new-post) or [donate via PayPal](https://www.typist.tech/donate/remove-medium-cross-links/). Thanks a lot! :)
+> If you like the plugin, feel free to [rate it](https://wordpress.org/support/plugin/remove-medium-cross-links/reviews/#new-post) or [donate via PayPal](https://typist.tech/donate/remove-medium-cross-links/). Thanks a lot! :)
 
 = For Bloggers =
 
-If you have written an article about `Remove Medium Cross Links`, do [let me know](https://www.typist.tech/contact/). For any questions, shoot me an email at [info@typist.tech](mailto:info@typist.tech)
+If you have written an article about `Remove Medium Cross Links`, do [let me know](https://typist.tech/contact/). For any questions, shoot me an email at [info@typist.tech](mailto:info@typist.tech)
 
 = For Developers =
 
@@ -37,7 +37,7 @@ Remove Medium Cross Links is open source and hosted on [GitHub](https://github.c
 = Who make this plugin? =
 
 [Tang Rufus](mailto:info@typist.tech), a freelance developer for hire.
-I make [Typist Tech](https://www.typist.tech/) also.
+I make [Typist Tech](https://typist.tech/) also.
 
 = Support =
 
@@ -57,7 +57,7 @@ PHP 7 or later.
 = Is this plugin written by A Medium Corporation? =
 
 No.
-This plugin is a [Typist Tech](https://www.typist.tech) project.
+This plugin is a [Typist Tech](https://typist.tech) project.
 
 = Does this plugin available in my language? =
 
@@ -80,18 +80,18 @@ If you know what `GitHub` is, use [GitHub issues](https://github.com/Typisttech/
 If you like the plugin, feel free to:
 
 * Give us a 5-star review on [WordPress.org](https://wordpress.org/support/plugin/remove-medium-cross-links/reviews/#new-post)
-* Donate via [PayPal](https://www.typist.tech/donate/remove-medium-cross-links/). Thanks a lot! :)
+* Donate via [PayPal](https://typist.tech/donate/remove-medium-cross-links/). Thanks a lot! :)
 * Translate it at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/remove-medium-cross-links).
 
 Besides, `Remove Medium Cross Links` is open source and hosted on [GitHub](https://github.com/TypistTech/remove-medium-cross-links). Feel free to make pull requests.
 
-Last but not least, you can hire me. Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://www.typist.tech/contact/).
+Last but not least, you can hire me. Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://typist.tech/contact/).
 
 = What if I want more? =
 
 Hire me!
 
-Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://www.typist.tech/contact/).
+Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [contact form](https://typist.tech/contact/).
 
 == Installation ==
 
