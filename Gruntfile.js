@@ -78,7 +78,7 @@ module.exports = function (grunt) {
                 options: {
                     prefix: 'Stable tag:\\s+'
                 },
-                src: ['README.txt']
+                src: ['readme.txt']
             }
         }
 
