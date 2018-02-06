@@ -80,7 +80,7 @@
             ".*",
             "!/languages",
             "!/LICENSE",
-            "!/README.txt",
+            "!/readme.txt",
             "!/*.php"
         ]
     }
