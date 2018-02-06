@@ -18,6 +18,8 @@ addons:
   apt:
     packages:
       - nginx
+  hosts:
+    - wp.dev
 
 php:
   - 7.1
