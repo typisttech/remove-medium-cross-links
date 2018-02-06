@@ -5,7 +5,7 @@ Donate link: https://typist.tech/donate/remove-medium-cross-links
 Requires at least: 4.8
 Requires PHP: 7.1.0
 Tested up to: 4.9
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -97,6 +97,10 @@ Shoot me an email at [info@typist.tech](mailto:info@typist.tech) or use this [co
 == Changelog ==
 
 Full change log available at [GitHub](https://github.com/TypistTech/remove-medium-cross-links/blob/master/CHANGELOG.md)
+
+= 1.1.1 =
+
+* TravisCI: Fix deployment
 
 = 1.1.0 =
 
