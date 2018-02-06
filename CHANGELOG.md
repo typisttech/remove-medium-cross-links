@@ -1,10 +1,18 @@
 # Change Log
 
+## [1.1.1](https://github.com/TypistTech/remove-medium-cross-links/tree/1.1.1) (2018-02-07)
+[Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.1.0...1.1.1)
+
+**Merged pull requests:**
+
+- Rename `README.txt` --\> `readme.txt` [\#19](https://github.com/TypistTech/remove-medium-cross-links/pull/19) ([TangRufus](https://github.com/TangRufus))
+
 ## [1.1.0](https://github.com/TypistTech/remove-medium-cross-links/tree/1.1.0) (2018-02-06)
 [Full Changelog](https://github.com/TypistTech/remove-medium-cross-links/compare/1.0.16...1.1.0)
 
 **Merged pull requests:**
 
+- Version bump 1.1.0 [\#18](https://github.com/TypistTech/remove-medium-cross-links/pull/18) ([TangRufus](https://github.com/TangRufus))
 - Update test config & dependencies [\#17](https://github.com/TypistTech/remove-medium-cross-links/pull/17) ([TangRufus](https://github.com/TangRufus))
 - Update TravisCI config [\#16](https://github.com/TypistTech/remove-medium-cross-links/pull/16) ([TangRufus](https://github.com/TangRufus))
 
