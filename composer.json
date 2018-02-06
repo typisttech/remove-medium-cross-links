@@ -8,7 +8,7 @@
         "medium"
     ],
     "homepage": "https://www.typist.tech/projects/remove-medium-cross-links",
-    "license": "GPL-2.0+",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Typist Tech",

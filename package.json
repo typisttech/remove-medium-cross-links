@@ -13,7 +13,7 @@
         "email": "remove-medium-cross-links@typist.tech",
         "url": "https://github.com/TypistTech/remove-medium-cross-links/issues"
     },
-    "license": "GPL-2.0+",
+    "license": "GPL-2.0-or-later",
     "author": "Typist Tech <remove-medium-cross-links@typist.tech> (https://www.typist.tech/)",
     "contributors": [
         "Tang Rufus <tangrufus@gmail.com> (https://www.typist.tech/)"
