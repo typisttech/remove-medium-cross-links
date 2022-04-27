@@ -25,7 +25,7 @@
     "main": "Gruntfile.js",
     "devDependencies": {
         "doctoc": "^1.3.0",
-        "grunt": "^1.0.1",
+        "grunt": "^1.5.2",
         "grunt-version": "^1.1.1",
         "grunt-wp-i18n": "^1.0.0",
         "load-grunt-tasks": "^3.5.2"
